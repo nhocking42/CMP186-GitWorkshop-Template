@@ -21,7 +21,7 @@ namespace SalaryCalculator
             }
             else if (employeeType == EmployeeType.SeniorEngineer || employeeType == EmployeeType.Manager)
             {
-                factor = 2.0m;
+                factor = 2.0 m;
             }
             else if (employeeType == EmployeeType.SeniorManager)
             {
