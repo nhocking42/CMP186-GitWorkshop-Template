@@ -14,14 +14,15 @@ namespace SalaryCalculator
             }
 
             decimal factor = 0;
-            switch (employeeType)
+
+            switch (employeeType)      
             {
                 case EmployeeType.Engineer:
                     factor = 1;
                     break;
                 case EmployeeType.SeniorEngineer:
                 case EmployeeType.Manager:
-                    factor = 1.5m;
+                    factor = 2m;
                     break;
                 case EmployeeType.SeniorManager:
                 case EmployeeType.Expert:
